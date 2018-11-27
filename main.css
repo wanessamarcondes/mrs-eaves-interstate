@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+    font-size: 10px;
+}
+
+@font-face {
+    font-family: MrsEaves;
+    src: url(./font/MrsEavesOTRoman.otf) format("opentype");
+}
+
+@font-face {
+    font-family: Interstate;
+    src: url(./font/interstate.ttf) format("truetype");
+}
+
+.header-padding {
+    padding: 10%;
+}
+
+.secao-padding {
+    padding: 5% 10%;
+}
+
+.secao-row {
+    height: 80vh;
+}
+
+.analise-row {
+    height: 40vh;
+}
+
+.interstate-menu {
+    font-size: 2rem;
+}
+
+.header-secao {
+    background-color: green;
+    height: 100vh;
+}
+
+.header-introducao {
+    margin: 0 auto;
+    color: #FFF;
+}
+
+.col-introducao {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.interstate {
+    font-family: Interstate;
+}
+
+.interstate-h2 {
+    font-size: 10rem;
+}
+
+.interstate-h4 {
+    font-size: 5rem;
+}
+
+.interstate-h5 {
+    font-size: 4rem;
+}
+
+.interstate-h6 {
+    font-size: 3.2rem;
+}
+
+.interstate-analise, .mrs-eaves-analise {
+    font-size: 6.5rem;
+    text-align: center;
+}
+
+.mrs-eaves {
+    font-family: MrsEaves;
+}
+
+.mrs-eaves-h3 {
+    font-size: 9rem;
+}
+
+.mrs-eaves-p {
+    font-size: 2.5rem;
+}
+
+.referencias-secao {
+    background-color: purple;
+    width: 100%;
+}
