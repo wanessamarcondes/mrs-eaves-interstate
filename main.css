@@ -17,11 +17,11 @@ div {
     scroll-behavior: smooth;
 }
 
-#bibliografia {
+/* #bibliografia {
     height: 100vh;
     display: flex;
     align-items: flex-end;
-}
+} */
 
 .header-padding {
     padding: 10%;
@@ -40,10 +40,11 @@ div {
 }
 
 .header-secao {
-    background-image: url(./img/header-background-01.png);
+    background-color: #0E930A;
+    background-image: url(./img/header-background.png);
     background-position: center;
     background-size: cover;
-    height: 100vh;
+    /* height: 100vh; */
 }
 
 .header-introducao {
@@ -107,10 +108,10 @@ div {
 }
 
 .referencias-secao {
-    background-image: url(./img/referencias-background.png);
+    background-color: #9ECE67;
+    /* background-image: url(./img/referencias-background.png); */
     background-position: center;
     background-size: cover;
-    width: 100%;
 }
 
 .link-referencias {
