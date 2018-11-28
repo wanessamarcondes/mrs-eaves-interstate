@@ -40,8 +40,7 @@ div {
 }
 
 .header-secao {
-    background-color: #157500;
-    background-image: url(./img/header-background.png);
+    background-image: url(./img/header-background-01.png);
     background-position: center;
     background-size: cover;
     height: 100vh;
@@ -108,7 +107,9 @@ div {
 }
 
 .referencias-secao {
-    background-color: #96e072;
+    background-image: url(./img/referencias-background.png);
+    background-position: center;
+    background-size: cover;
     width: 100%;
 }
 
