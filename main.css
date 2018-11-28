@@ -13,6 +13,10 @@
     src: url(./font/interstate.ttf) format("truetype");
 }
 
+div {
+    scroll-behavior: smooth;
+}
+
 #bibliografia {
     height: 100vh;
     display: flex;
@@ -36,7 +40,10 @@
 }
 
 .header-secao {
-    background-color: green;
+    background-color: #157500;
+    background-image: url(./img/header-background.png);
+    background-position: center;
+    background-size: cover;
     height: 100vh;
 }
 
@@ -76,6 +83,10 @@
     padding-top: 50px;
 }
 
+.analise-row {
+    background-color: #FAFCD1;
+}
+
 .interstate-grande {
     font-size: 15rem;
 }
@@ -97,7 +108,7 @@
 }
 
 .referencias-secao {
-    background-color: purple;
+    background-color: #96e072;
     width: 100%;
 }
 
@@ -139,6 +150,10 @@
     width: 100%;
     object-fit: cover;
     object-position: center;
+}
+
+.autores-secao {
+    background-color: #499167;
 }
 
 .img-autores {
